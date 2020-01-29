@@ -16,7 +16,7 @@
 
 body {
   background-color: #242424;
-  background-image: url("../img/tint.png");
+  background-image: url("../img/main_page_cover.png");
   background-repeat: no-repeat;
   background-position: 0 72px;
   font-family: 'PT Sans Narrow Bold', sans-serif;
@@ -315,7 +315,7 @@ time {
 
 footer {
   background-color: #242424;
-  background-image: url(../img/Layer_23.png);
+  background-image: url(../img/footer_cover.png);
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -408,7 +408,7 @@ main {
 
 .list {
   list-style: none;
-  list-style-image: url(../img/Shape_1_copy.png);
+  list-style-image: url(../img/rhomb_black.png);
   vertical-align: middle;
   margin-left: 15px;
 }
