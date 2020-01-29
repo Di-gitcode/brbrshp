@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+		<title>Barbershop BORODINSKI</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__menu">
+					<ul class="header__menu-without-logo">
+						<li class="header__menu-item"><a class="header__menu-item-link" href="item.html"><span class="header__menu-item-name">Информация</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="javascript:;"><span class="header__menu-item-name">Новости</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="price.html"><span class="header__menu-item-name">Прайс-лист</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="shop.html"><span class="header__menu-item-name">Магазин</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="javascript:;"><span class="header__menu-item-name">Контакты</span></a></li>
+					</ul>
+					<form class="header__sign-in-button">
+						<button class="header__entry-button"><img class="header__sign-in-button-image" src="img/login.png" alt="Вход">Вход</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<div class="container">
+			<img class="container__image" src="img/index-logo.png" alt="BORODINSKI">
+		</div>
+		<div class="columns">
+			<div class="columns__column">
+				<h2 class="columns__headline">Быстро</h2>
+				<div class="columns__shape"></div>
+					<p class="columns__caption">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+			</div>
+			<div class="columns__column">
+				<h2 class="columns__headline">Круто</h2>
+				<div class="columns__shape"></div>
+					<p class="columns__caption">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+			</div>
+			<div class="columns__column">
+				<h2 class="columns__headline">Дорого</h2>
+				<div class="columns__shape"></div>
+					<p class="columns__caption">Наши мастера — профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определеный статус?</p>
+				</div>
+		</div>
+		<div class="sheet">
+			<div class="sheet__card-1">
+				<h2 class="sheet__headline">Новости</h2>
+				<div class="sheet__container">
+					<p class="sheet__text-block">Нам наконец завезли ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+					<time class="sheet__date" pubdate>11 января</time>
+				</div>
+				<div class="sheet__container">
+					<p class="sheet__text-block">В нашей команде пополнение, Борис «Бритва» Стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+					<time class="sheet__date" pubdate>18 января</time>
+				</div>	
+				<form class="sheet__container">
+					<button class="sheet__button">Все новости</button>
+				</form>
+			</div>
+			<div class="sheet__card-2">
+				<h2 class="sheet__headline">Фотогалерея</h2>
+				<img class="sheet__gallery" src="img/gallery_1.png" alt="ФОТОГАЛЕРЕЯ">
+				<div class="sheet__two-buttons">
+					<form class="sheet__container">
+						<button class="sheet__button">Назад</button>
+					</form>
+					<form class="sheet__container">
+						<button class="sheet__button">Вперед</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="sheet">
+			<div class="sheet__card-1">
+				<h2 class="sheet__headline">Контактная информация</h2>
+				<p class="sheet__text-block">Барбершоп «Бородинский»<br>
+					Адрес: г. Санкт-петербург, Б. Конюшенная, д. 19/8<br>
+					Телефон: +7 (495) 666-02-66
+				</p><br>
+				<p class="sheet__text-block">Время работы:<br>
+					Пн-Пт: с 10:00 до 22:00<br>
+					Сб-Вс: с 10:00 до 19:00
+				</p><br>
+				<div class="sheet__two-buttons">
+					<form class="sheet__container">
+						<button class="sheet__button">Как проехать</button>
+					</form>
+					<form class="sheet__container">
+						<button class="sheet__button">Обратная связь</button>
+					</form>
+				</div>
+			</div>
+			<div class="sheet__card-2">
+				<h2 class="sheet__headline">Записаться</h2>
+				<p class="sheet__text-block">Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
+				<form class="sheet__table">
+					<div class="sheet__sign-me">
+						<div class="sheet__container">
+							<span class="sheet__table-description">ДАТА</span><br>
+							<input class="sheet__input-field" type="date" name="date" value="" placeholder="08.10.2017" alt="ДАТА"><br>
+							<span class="sheet__table-description">Ваше имя</span><br>
+							<input class="sheet__input-field" type="text" name="firstname" value="" placeholder="Борода"><br>
+						</div>
+						<div class="sheet__container">
+							<span class="sheet__table-description">Время</span><br>
+							<input class="sheet__input-field" type="time" name="time" value="" placeholder="10:00" alt="ВРЕМЯ"><br>
+							<span class="sheet__table-description">Телефон</span><br>
+							<input class="sheet__input-field" type="tel" name="phone" value="" placeholder="+7 123 456-78-90">
+						</div>
+					</div>
+					<button type="submit" name="submit" class="sheet__button">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__container">
+					<p class="footer__text-block">
+						Барбершоп «Бородинский»<br>
+						Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
+						<a class="footer__link" href="javascript:;">Как нас найти?</a><br>
+						Телефон: +7 (495) 666-02-66
+					</p>
+				</div>
+				<div class="footer__social">
+					<p class="footer__text-block">Давайте дружить!</p><br>
+					<ul class="footer__soc-net-list">
+						<li class="footer__soc-net-item footer__vk"><a class="footer__soc-net-link" href="javascript:;"></a></li>
+						<li class="footer__soc-net-item footer__fb"><a class="footer__soc-net-link" href="javascript:;"></a></li>
+						<li class="footer__soc-net-item footer__insta"><a class="footer__soc-net-link" href="javascript:;"></a></li>
+					</ul>
+				</div>
+				<div class="footer__developer">
+					<p class="footer__text-block">Разработано:</p>
+					<button class="footer__button">HTML Academy</button>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
