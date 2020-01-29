@@ -7,148 +7,148 @@
 		<title>Barbershop BORODINSKI</title>
 	</head>
 	<body>
-		<header>
-		  <div class="wrapper">
-			  <div class="navigation">
-					<ul class="menu logo">
-						<li class="barbershop-signature"><a href="index.html"><img src="img\logo.png" alt="BORODINSKI"></a></li>
-						<li><a href="item.html"><span>Информация</span></a></li>
-						<li><a href="#"><span>Новости</span></a></li>
-						<li><a href="price.html"><span>Прайс-лист</span></a></li>
-						<li><a href="shop.html"><span>Магазин</span></a></li>
-						<li><a href="#"><span>Контакты</span></a></li>
+		<header class="header">
+			<div class="header__wrapper">
+				<div class="header__menu">
+					<ul class="header__menu-with-logo">
+						<li class="header__menu-item"><a class="header__menu-item-link" href="index.html"><img class="header__menu-logo" src="img\logo.png" alt="BORODINSKI"></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="item.html"><span class="header__menu-item-name">Информация</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="javascript:;"><span class="header__menu-item-name">Новости</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="price.html"><span class="header__menu-item-name">Прайс-лист</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="shop.html"><span class="header__menu-item-name">Магазин</span></a></li>
+						<li class="header__menu-item"><a class="header__menu-item-link" href="javascript:;"><span class="header__menu-item-name">Контакты</span></a></li>
 					</ul>
-					<form class="sign-in-button">
-						<button class="entry-button"><img src="img/login.png" alt="Вход">Вход</button>
+					<form class="header__sign-in-button">
+						<button class="header__entry-button"><img class="header__sign-in-button-image" src="img/login.png" alt="Вход">Вход</button>
 					</form>
 				</div>
-		  </div>										
+			</div>
 		</header>
-		<main>
-			<div class="wrapper">
-				<div>
-					<h2>Средства для ухода</h2>
-					<ul class="list list-horizontal">
-						<li><a href="index.html">Главная</a></li>
-						<li><a href="shop.html">Магазин</a></li>
-						<li><a href="#">Средства для ухода</a></li>
+		<main class="main">
+			<div class="main__wrapper">
+				<div class="main__container">
+					<h2 class="main__headline">Средства для ухода</h2>
+					<ul class="main__list main__list-horizontal">
+						<li class="main__list-item"><a class="main__list-item-link" href="index.html">Главная</a></li>
+						<li class="main__list-item"><a class="main__list-item-link" href="shop.html">Магазин</a></li>
+						<li class="main__list-item"><a class="main__list-item-link" href="javascript:;">Средства для ухода</a></li>
 					</ul>
 				</div>
-				<div class="two-halfs">
-					<div class="sorter">
-						<form class="manufacturers">
-							<h3>Производители:</h3>
-							<input type="checkbox" name="manufacturer" value="BaxterOfCalifornia" id="BaxterOfCalifornia" class="checkbox" checked="checked">
-							<label for="BaxterOfCalifornia">Baxter of California</label><br>
-							<input type="checkbox" name="manufacturer" value="MrNatty" id="MrNatty" class="checkbox">
-							<label for="MrNatty">Mr Natty</label><br>
-							<input type="checkbox" name="manufacturer" value="Suavecito" id="Suavecito" class="checkbox" checked="checked">
-							<label for="Suavecito">Suavecito</label><br>
-							<input type="checkbox" name="manufacturer" value="MalinGoetz" id="MalinGoetz" class="checkbox">
-							<label for="MalinGoetz">Malin+Goetz</label><br>
-							<input type="checkbox" name="manufacturer" value="Murrays" id="Murrays" class="checkbox">
-							<label for="Murrays">Murray’s</label><br>
-							<input type="checkbox" name="manufacturer" value="AmericanCrew" id="AmericanCrew" class="checkbox" checked="checked">
-							<label for="AmericanCrew">American Crew</label><br>
+				<div class="main__two-halfs">
+					<div class="main__sorter">
+						<form class="main__filter-items">
+							<h3 class="main__filter-title">Производители:</h3>
+							<input type="checkbox" name="manufacturer" value="BaxterOfCalifornia" id="BaxterOfCalifornia" class="main__filter-checkbox" checked="checked">
+							<label class="main__filter-label" for="BaxterOfCalifornia">Baxter of California</label><br>
+							<input type="checkbox" name="manufacturer" value="MrNatty" id="MrNatty" class="main__filter-checkbox">
+							<label class="main__filter-label" for="MrNatty">Mr Natty</label><br>
+							<input type="checkbox" name="manufacturer" value="Suavecito" id="Suavecito" class="main__filter-checkbox" checked="checked">
+							<label class="main__filter-label" for="Suavecito">Suavecito</label><br>
+							<input type="checkbox" name="manufacturer" value="MalinGoetz" id="MalinGoetz" class="main__filter-checkbox">
+							<label class="main__filter-label" for="MalinGoetz">Malin+Goetz</label><br>
+							<input type="checkbox" name="manufacturer" value="Murrays" id="Murrays" class="main__filter-checkbox">
+							<label class="main__filter-label" for="Murrays">Murray’s</label><br>
+							<input type="checkbox" name="manufacturer" value="AmericanCrew" id="AmericanCrew" class="main__filter-checkbox" checked="checked">
+							<label class="main__filter-label" for="AmericanCrew">American Crew</label><br>
 						</form>
-						<form class="good-groups">
-							<h3>Группы товаров:</h3>
-							<input type="radio" name="good-group" value="razor" id="razor" class="radio"> 
-							<label for="razor">Бритвенные принадлежности</label><br>
-							<input type="radio" name="good-group" value="care" id="care" class="radio" checked="checked"> 
-							<label for="care">Средства для ухода</label><br>
-							<input type="radio" name="good-group" value="accessoires" id="accessoires" class="radio"> 
-							<label for="accessoires">Аксессуары</label><br>
+						<form class="main__filter-items">
+							<h3 class="main__filter-title">Группы товаров:</h3>
+							<input type="radio" name="good-group" value="razor" id="razor" class="main__filter-radio"> 
+							<label class="main__filter-label" for="razor">Бритвенные принадлежности</label><br>
+							<input type="radio" name="good-group" value="care" id="care" class="main__filter-radio" checked="checked"> 
+							<label class="main__filter-label" for="care">Средства для ухода</label><br>
+							<input type="radio" name="good-group" value="accessoires" id="accessoires" class="main__filter-radio"> 
+							<label class="main__filter-label" for="accessoires">Аксессуары</label><br>
 						</form>
-						<button class="button">Показать</button>
+						<button class="main__button">Показать</button>
 					</div>
-					<div>
-							<ul class="buy-goods">
-							<li class="good-card">
-								<img src="img\BoC_2.png" alt="Набор для путешествий">
-								<p class="good-name">Набор для путешествий<br>
+					<div class="main__container">
+							<ul class="main__buy-goods">
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\BoC_2.png" alt="Набор для путешествий">
+								<p class="main__good-name">Набор для путешествий<br>
 									«BAXTER OF CALIFORNIA»</p>
-								<div class="order">
-									<p class="price">2 900 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">2 900 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
-							<li class="good-card">
-								<img src="img\BoC_1.png" alt="Увлажняющий кондиционер">
-								<p class="good-name">Увлажняющий кондиционер<br>
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\BoC_1.png" alt="Увлажняющий кондиционер">
+								<p class="main__good-name">Увлажняющий кондиционер<br>
 									«BAXTER OF CALIFORNIA»</p>
-								<div class="order">
-									<p class="price">750 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">750 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
-							<li class="good-card">
-								<img src="img\Suavecito_1.png" alt="Гель для волос">
-								<p class="good-name">Гель для волос<br>
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\Suavecito_1.png" alt="Гель для волос">
+								<p class="main__good-name">Гель для волос<br>
 									«SUAVECITO»</p>
-								<div class="order">
-									<p class="price">290 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">290 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
-							<li class="good-card">
-								<img src="img\AC_1.png" alt="Глина для укладки волос">
-								<p class="good-name">Глина для укладки волос<br>
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\AC_1.png" alt="Глина для укладки волос">
+								<p class="main__good-name">Глина для укладки волос<br>
 									«AMERICAN CREW»</p>
-								<div class="order">
-									<p class="price">500 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">500 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
-							<li class="good-card">
-								<img src="img\AC_2.png" alt="Гель для волос">
-								<p class="good-name">Гель для волос<br>
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\AC_2.png" alt="Гель для волос">
+								<p class="main__good-name">Гель для волос<br>
 									«AMERICAN CREW»</p>
-								<div class="order">
-									<p class="price">300 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">300 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
-							<li class="good-card">
-								<img src="img\BoC_3.png" alt="Набор для бритья">
-								<p class="good-name">Набор для бритья<br>
+							<li class="main__good-card">
+								<img class="main__good-image" src="img\BoC_3.png" alt="Набор для бритья">
+								<p class="main__good-name">Набор для бритья<br>
 									«BAXTER OF CALIFORNIA»</p>
-								<div class="order">
-									<p class="price">3 900 ₽</p>
-									<button class="button">Купить</button>
+								<div class="main__good-order">
+									<p class="main__good-price">3 900 ₽</p>
+									<button class="main__button">Купить</button>
 								</div>
 							</li>
 						</ul>
-						<ul class="pages">
-								<li><a href="#">1</a></li>
-								<li><a href="#">2</a></li>
-								<li><a href="#">3</a></li>
-								<li><a href="#">4</a></li>
+						<ul class="main__pages">
+								<li class="main__page-number"><a class="main__page-link" href="javascript:;">1</a></li>
+								<li class="main__page-number"><a class="main__page-link" href="javascript:;">2</a></li>
+								<li class="main__page-number"><a class="main__page-link" href="javascript:;">3</a></li>
+								<li class="main__page-number"><a class="main__page-link" href="javascript:;">4</a></li>
 							</ul>
 						</div>
 					</div>
 				</main>
-				<footer>
-					<div class="wrapper">
-						<div>
-							<p>
+				<footer class="footer">
+					<div class="footer__wrapper">
+						<div class="footer__container">
+							<p class="footer__text-block">
 								Барбершоп «Бородинский»<br>
 								Адрес: г. Санкт-петербург, ул. Б. Конюшенная, д. 19/8<br>
-								<a href="#">Как нас найти?</a><br>
+								<a class="footer__link" href="javascript:;">Как нас найти?</a><br>
 								Телефон: +7 (495) 666-02-66
 							</p>
 						</div>
-						<div class="social">
-							<p>Давайте дружить!</p><br>
-							<ul>
-								<li class="soc-net-button vk"><a href="#"></a></li>
-								<li class="soc-net-button fb"><a href="#"></a></li>
-								<li class="soc-net-button insta"><a href="#"></a></li>
+						<div class="footer__social">
+							<p class="footer__text-block">Давайте дружить!</p><br>
+							<ul class="footer__soc-net-list">
+								<li class="footer__soc-net-item footer__vk"><a class="footer__soc-net-link" href="javascript:;"></a></li>
+								<li class="footer__soc-net-item footer__fb"><a class="footer__soc-net-link" href="javascript:;"></a></li>
+								<li class="footer__soc-net-item footer__insta"><a class="footer__soc-net-link" href="javascript:;"></a></li>
 							</ul>
 						</div>
-						<div class="developer">
-							<p>Разработано:</p>
-							<button class="button">HTML Academy</button>
+						<div class="footer__developer">
+							<p class="footer__text-block">Разработано:</p>
+							<button class="footer__button">HTML Academy</button>
 						</div>
 					</div>
 				</footer>
