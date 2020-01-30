@@ -361,7 +361,7 @@ body {
 
 .main__photostock {
   display: flex;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .main__preview {
@@ -384,12 +384,21 @@ body {
 .main__articul {
   display: inline-block;
   color: #aeaeae;
-  position: absolute;
-  right: -165px;
+  position: relative;
+  left: 55%;
+  transform:  translateY(15%);
+}
+
+.main__good-info > .main__text-block {
+  padding-top: -10px;
 }
 
 .main__order {
   display: flex;
+}
+
+.main__good-info > .main__order {
+  margin-top: -10px;
 }
 
 .main__price {
@@ -416,8 +425,12 @@ body {
   font-size: 24px;
   font-weight: 400;
   line-height: 30px;
-  margin-top: 67px;
-  margin-bottom: 38px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.main__good-info > .main__topic {
+  margin-top: 45px;
 }
 
 .main__slogan {
@@ -613,6 +626,7 @@ body {
 
 .main__sorter > .main__button {
   width: 120px;
+  margin-top: 20px;
 }
 
 .main__buy-goods {
