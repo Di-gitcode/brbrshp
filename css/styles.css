@@ -177,7 +177,28 @@ body {
   overflow: hidden;
 }
 
-.main__sign-me::placeholder {
+.main__sign-me::-webkit-input-placeholder {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main__sign-me:-moz-placeholder { /* Firefox 18- */
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main__sign-me::-moz-placeholder {  /* Firefox 19+ */
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.main__sign-me:-ms-input-placeholder {
   font-family: 'PT Sans Narrow Bold', sans-serif;
   font-size: 14px;
   font-weight: 400;
